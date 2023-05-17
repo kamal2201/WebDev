@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 3px;
+    text-align: right;
+    margin-bottom: 10px;
+    width: 16em;
+    padding: 5px 2px;
+}
+
+button{
+    width: 3em;
+    height: 3em;
+    margin: 2px;
+    font-size: 1em;
+    font-weight: 50;
+    cursor: pointer;
+    color: blue;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
